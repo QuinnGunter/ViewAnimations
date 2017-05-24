@@ -62,11 +62,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbG-lx-Kb1">
+                                <rect key="frame" x="0.0" y="327" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.2588235438" green="0.75686275960000005" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Kjo-f2-MQx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="glM-Ku-IaS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="1Fr-fA-gFb" secondAttribute="trailing" id="03l-1R-Ask"/>
                             <constraint firstItem="Tv5-P0-03A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="1eL-Dw-bV5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cbG-lx-Kb1" secondAttribute="bottom" constant="300" id="2vf-Ax-Kk4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tv5-P0-03A" secondAttribute="trailing" constant="15" id="4sw-2R-a73"/>
                             <constraint firstItem="XGF-Fs-v5b" firstAttribute="trailing" secondItem="Tv5-P0-03A" secondAttribute="trailing" id="9ig-Di-fbh"/>
                             <constraint firstItem="SAV-sY-F7x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="NYW-c7-joC"/>
@@ -83,6 +98,8 @@
                             <constraint firstAttribute="trailingMargin" secondItem="SAV-sY-F7x" secondAttribute="trailing" constant="16" id="it2-ti-2Cq"/>
                             <constraint firstItem="eB1-iJ-Qtu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pYX-eW-7w5"/>
                             <constraint firstItem="XGF-Fs-v5b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="sPp-4x-VIa"/>
+                            <constraint firstAttribute="trailing" secondItem="cbG-lx-Kb1" secondAttribute="trailing" id="seW-ja-6Vt"/>
+                            <constraint firstItem="cbG-lx-Kb1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uOL-5R-Qu9"/>
                             <constraint firstItem="XGF-Fs-v5b" firstAttribute="centerY" secondItem="1Fr-fA-gFb" secondAttribute="centerY" id="xB9-48-Qfs"/>
                         </constraints>
                     </view>
@@ -96,6 +113,7 @@
                         <outlet property="nameFieldLeading" destination="sPp-4x-VIa" id="Hyc-DY-zpc"/>
                         <outlet property="nameFieldTrailing" destination="aIF-rw-mhz" id="Hkv-nS-jub"/>
                         <outlet property="nameTextField" destination="XGF-Fs-v5b" id="J45-oB-QA7"/>
+                        <outlet property="setLoginButton" destination="cbG-lx-Kb1" id="XrF-fi-UUS"/>
                         <outlet property="welcomText" destination="1Fr-fA-gFb" id="VeP-Ee-ftw"/>
                     </connections>
                 </viewController>
