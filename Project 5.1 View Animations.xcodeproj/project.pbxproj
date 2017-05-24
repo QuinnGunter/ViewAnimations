@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					E8C491AB1ED5EDEF00B3C2F8 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 35YT2A3NRR;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35YT2A3NRR;
 				INFOPLIST_FILE = "Project 5.1 View Animations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quintin.Project-5-1-View-Animations";
@@ -274,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35YT2A3NRR;
 				INFOPLIST_FILE = "Project 5.1 View Animations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quintin.Project-5-1-View-Animations";
